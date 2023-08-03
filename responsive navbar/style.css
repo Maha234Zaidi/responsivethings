@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    background: black;
+}
+ul{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+ul li:hover{
+    background:whitesmoke;
+}
+ul li a{
+    color: red;
+    text-decoration: none;
+}
+.toggle{
+    width: 100%;
+    padding: 10px 20px;
+    color: white;
+    background-color: red;
+    text-align: right;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+@media  (max-width:768px) {
+    .toggle
+     {
+        display:block;
+     }
+ul{
+    width: 100%;
+   
+}
+ul li{
+    display: block;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(255, 254, 254, 0.2);
+}
+} 
